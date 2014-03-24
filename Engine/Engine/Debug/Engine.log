@@ -1,0 +1,641 @@
+﻿Build started 2014-03-24 22:45:07.
+     1>Project "D:\Github\Masters Thesis\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze /errorReport:prompt AnimationData.cpp AnimationFrame.cpp bitmapProcessor.cpp BoneData.cpp camera.cpp fbxLoader2.cpp furDensityGenerator.cpp furShader.cpp phongShader.cpp directmanager.cpp fbxLoader.cpp graphicsclass.cpp inputclass.cpp main.cpp meshRenderer.cpp SkeletalData.cpp systemclass.cpp textureProcessor.cpp
+         textureProcessor.cpp
+         systemclass.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader2.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         SkeletalData.cpp
+         meshRenderer.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader2.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>meshRenderer.cpp(60): warning C4101: 'i' : unreferenced local variable
+         main.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader2.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         inputclass.cpp
+         graphicsclass.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader2.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>graphicsclass.cpp(226): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>graphicsclass.cpp(242): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>graphicsclass.cpp(243): warning C4305: 'argument' : truncation from 'double' to 'FLOAT'
+         fbxLoader.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader.h(104): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader.h(116): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader.h(116): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader.h(116): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader.h(116): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(212): warning C4482: nonstandard extension used: enum 'fbxsdk_2014_1::FbxDeformer::EDeformerType' used in qualified name
+     1>fbxLoader.cpp(630): warning C4806: '==' : unsafe operation: no value of type 'bool' promoted to type 'fbxsdk_2014_1::FbxSkeleton::EType' can equal the given constant
+     1>fbxLoader.cpp(668): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(668): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(668): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(668): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(671): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(671): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(671): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(676): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(953): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1062): warning C4996: 'fbxsdk_2014_1::FbxObject::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see declaration of 'fbxsdk_2014_1::FbxObject::GetSrcObject'
+     1>fbxLoader.cpp(1063): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMemberCount': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(75) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMemberCount'
+     1>fbxLoader.cpp(1068): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMember': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(85) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMember'
+     1>fbxLoader.cpp(1166): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1166): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1166): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1166): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1167): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1167): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1167): warning C4244: 'argument' : conversion from 'fbxsdk_2014_1::FbxDouble' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1211): warning C4996: 'fbxsdk_2014_1::FbxObject::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see declaration of 'fbxsdk_2014_1::FbxObject::GetSrcObject'
+     1>fbxLoader.cpp(1212): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMember': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(85) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMember'
+     1>fbxLoader.cpp(1223): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>fbxLoader.cpp(1231): warning C4244: 'initializing' : conversion from 'fbxsdk_2014_1::FbxLongLong' to 'double', possible loss of data
+     1>fbxLoader.cpp(1232): warning C4244: 'initializing' : conversion from 'fbxsdk_2014_1::FbxLongLong' to 'double', possible loss of data
+     1>fbxLoader.cpp(1275): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1275): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>fbxLoader.cpp(1275): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566): warning C4996: 'fbxsdk_2014_1::FbxProperty::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(810) : see declaration of 'fbxsdk_2014_1::FbxProperty::GetSrcObject'
+                 fbxLoader.cpp(1062) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxObject::GetSrcObject<fbxsdk_2014_1::FbxAnimStack>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+     1>C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(810): warning C4996: 'fbxsdk_2014_1::FbxProperty::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(736) : see declaration of 'fbxsdk_2014_1::FbxProperty::GetSrcObject'
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxProperty::GetSrcObject<T>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+                 fbxLoader.cpp(1062) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxObject::GetSrcObject<fbxsdk_2014_1::FbxAnimStack>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+         directmanager.cpp
+     1>directmanager.cpp(41): warning C4101: 'depthDisabledStencilDesc' : unreferenced local variable
+         phongShader.cpp
+         furShader.cpp
+     1>furShader.cpp(17): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>furShader.cpp(87): warning C4101: 'samplerStateDesc1' : unreferenced local variable
+     1>furShader.cpp(431): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         furDensityGenerator.cpp
+     1>furDensityGenerator.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(50): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>furDensityGenerator.cpp(55): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>furDensityGenerator.cpp(55): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>furDensityGenerator.cpp(56): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>furDensityGenerator.cpp(56): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>furDensityGenerator.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(76): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(78): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(89): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(93): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(140): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(142): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(180): warning C4018: '<' : signed/unsigned mismatch
+     1>furDensityGenerator.cpp(182): warning C4244: 'initializing' : conversion from 'FLOAT' to 'BYTE', possible loss of data
+     1>furDensityGenerator.cpp(183): warning C4244: 'initializing' : conversion from 'FLOAT' to 'BYTE', possible loss of data
+     1>furDensityGenerator.cpp(184): warning C4244: 'initializing' : conversion from 'FLOAT' to 'BYTE', possible loss of data
+     1>furDensityGenerator.cpp(185): warning C4244: 'initializing' : conversion from 'FLOAT' to 'BYTE', possible loss of data
+     1>furDensityGenerator.cpp(33): warning C4101: 'alfaValue' : unreferenced local variable
+         fbxLoader2.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\fbxLoader2.h(95): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>fbxLoader2.cpp(183): warning C4996: 'fbxsdk_2014_1::FbxObject::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see declaration of 'fbxsdk_2014_1::FbxObject::GetSrcObject'
+     1>fbxLoader2.cpp(184): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMemberCount': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(75) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMemberCount'
+     1>fbxLoader2.cpp(190): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMember': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(85) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMember'
+     1>fbxLoader2.cpp(510): warning C4996: 'fbxsdk_2014_1::FbxObject::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see declaration of 'fbxsdk_2014_1::FbxObject::GetSrcObject'
+     1>fbxLoader2.cpp(511): warning C4996: 'fbxsdk_2014_1::FbxCollection::GetMember': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/fbxcollection.h(85) : see declaration of 'fbxsdk_2014_1::FbxCollection::GetMember'
+     1>fbxLoader2.cpp(522): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : see declaration of 'strncpy'
+     1>fbxLoader2.cpp(530): warning C4244: 'initializing' : conversion from 'fbxsdk_2014_1::FbxLongLong' to 'double', possible loss of data
+     1>fbxLoader2.cpp(531): warning C4244: 'initializing' : conversion from 'fbxsdk_2014_1::FbxLongLong' to 'double', possible loss of data
+     1>C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566): warning C4996: 'fbxsdk_2014_1::FbxProperty::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(810) : see declaration of 'fbxsdk_2014_1::FbxProperty::GetSrcObject'
+                 fbxLoader2.cpp(183) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxObject::GetSrcObject<fbxsdk_2014_1::FbxAnimStack>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+     1>C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(810): warning C4996: 'fbxsdk_2014_1::FbxProperty::GetSrcObject': was declared deprecated
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxproperty.h(736) : see declaration of 'fbxsdk_2014_1::FbxProperty::GetSrcObject'
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxobject.h(566) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxProperty::GetSrcObject<T>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+                 fbxLoader2.cpp(183) : see reference to function template instantiation 'T *fbxsdk_2014_1::FbxObject::GetSrcObject<fbxsdk_2014_1::FbxAnimStack>(const T *,int) const' being compiled
+                 with
+                 [
+                     T=fbxsdk_2014_1::FbxAnimStack
+                 ]
+         camera.cpp
+         BoneData.cpp
+         bitmapProcessor.cpp
+     1>bitmapProcessor.cpp(19): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>bitmapProcessor.cpp(27): warning C4244: 'initializing' : conversion from '__int64' to 'unsigned int', possible loss of data
+     1>bitmapProcessor.cpp(37): warning C4244: 'argument' : conversion from '__int64' to 'size_t', possible loss of data
+     1>bitmapProcessor.cpp(82): warning C4244: 'initializing' : conversion from 'FLOAT' to 'unsigned char', possible loss of data
+     1>bitmapProcessor.cpp(68): warning C4101: 'f' : unreferenced local variable
+         AnimationFrame.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+         AnimationData.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+         Running Code Analysis for C/C++...
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1308): warning C6011: Dereferencing NULL pointer 'lPropertyValue2': Lines: 1285, 1287, 1288, 1289, 1290, 1291, 1292, 1303, 1304, 1305, 1308
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1559): warning C6011: Dereferencing NULL pointer 'lParentFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1560): warning C6011: Dereferencing NULL pointer 'lPropertyFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559, 1560
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2182): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171, 2177, 2180, 2181, 2182
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2178): warning C6386: Buffer overrun: accessing 'mPivot', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2170, 2171, 2177, 2178
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2184): warning C6011: Dereferencing NULL pointer 'mPivot[id]': Lines: 2170, 2171, 2177, 2178, 2180, 2181, 2184
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2233): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2232, 2233
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2243): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2240, 2243
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2244): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2240, 2243, 2244
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2251): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2250, 2251
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2261): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2258, 2261
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2262): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2258, 2261, 2262
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2269): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2268, 2269
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2276): warning C6386: Buffer overrun: accessing 'mPivotState', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2274, 2275, 2276
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2277): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2274, 2275, 2276, 2277
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(356): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 353, 354, 355, 356
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(365): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 362, 363, 364, 365
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(376): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 373, 374, 375, 376
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(394): warning C6011: Dereferencing NULL pointer 'private: static void (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mDeallocatorFct)(class fbxsdk_2014_1::FbxAnimCurveKey_Impl *)': Lines: 392, 393, 394
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(40): warning C6011: Dereferencing NULL pointer 'mRecord': Lines: 39, 40
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(38) : while compiling class template member function 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType> &fbxsdk_2014_1::FbxRedBlackIterator<RecordType>::operator ++(void)'
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1694) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType>' being compiled
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1893) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Key=fbxsdk_2014_1::FbxInt,
+                     Type=fbxsdk_2014_1::FbxPropertyEntry *,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/shading/fbxbindingoperator.h(296) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare>' being compiled
+                 with
+                 [
+                     Key=const char *,
+                     Type=const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,
+                     Compare=fbxsdk_2014_1::FbxCharCompare
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1308): warning C6011: Dereferencing NULL pointer 'lPropertyValue2': Lines: 1285, 1287, 1288, 1289, 1290, 1291, 1292, 1303, 1304, 1305, 1308
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1559): warning C6011: Dereferencing NULL pointer 'lParentFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1560): warning C6011: Dereferencing NULL pointer 'lPropertyFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559, 1560
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2182): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171, 2177, 2180, 2181, 2182
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2178): warning C6386: Buffer overrun: accessing 'mPivot', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2170, 2171, 2177, 2178
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2184): warning C6011: Dereferencing NULL pointer 'mPivot[id]': Lines: 2170, 2171, 2177, 2178, 2180, 2181, 2184
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2233): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2232, 2233
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2243): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2240, 2243
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2244): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2240, 2243, 2244
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2251): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2250, 2251
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2261): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2258, 2261
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2262): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2258, 2261, 2262
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2269): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2268, 2269
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2276): warning C6386: Buffer overrun: accessing 'mPivotState', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2274, 2275, 2276
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2277): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2274, 2275, 2276, 2277
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(356): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 353, 354, 355, 356
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(365): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 362, 363, 364, 365
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(376): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 373, 374, 375, 376
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(394): warning C6011: Dereferencing NULL pointer 'private: static void (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mDeallocatorFct)(class fbxsdk_2014_1::FbxAnimCurveKey_Impl *)': Lines: 392, 393, 394
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(40): warning C6011: Dereferencing NULL pointer 'mRecord': Lines: 39, 40
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(38) : while compiling class template member function 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType> &fbxsdk_2014_1::FbxRedBlackIterator<RecordType>::operator ++(void)'
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1694) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType>' being compiled
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1893) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Key=fbxsdk_2014_1::FbxInt,
+                     Type=fbxsdk_2014_1::FbxPropertyEntry *,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/shading/fbxbindingoperator.h(296) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare>' being compiled
+                 with
+                 [
+                     Key=const char *,
+                     Type=const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,
+                     Compare=fbxsdk_2014_1::FbxCharCompare
+                 ]
+     1>d:\github\masters thesis\engine\engine\bitmapprocessor.cpp(27): warning C6211: Leaking memory 'dataRaw' due to an exception. Consider using a local catch block to clean up memory: Lines: 19, 20, 21, 23, 24, 26, 27, 28
+     1>d:\github\masters thesis\engine\engine\bitmapprocessor.cpp(88): warning C6011: Dereferencing NULL pointer 'img': Lines: 68, 69, 70, 71, 73, 74, 76, 78, 80, 81, 82, 83, 84, 85, 86, 87, 88
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1308): warning C6011: Dereferencing NULL pointer 'lPropertyValue2': Lines: 1285, 1287, 1288, 1289, 1290, 1291, 1292, 1303, 1304, 1305, 1308
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1559): warning C6011: Dereferencing NULL pointer 'lParentFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1560): warning C6011: Dereferencing NULL pointer 'lPropertyFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559, 1560
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2182): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171, 2177, 2180, 2181, 2182
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2178): warning C6386: Buffer overrun: accessing 'mPivot', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2170, 2171, 2177, 2178
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2184): warning C6011: Dereferencing NULL pointer 'mPivot[id]': Lines: 2170, 2171, 2177, 2178, 2180, 2181, 2184
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2233): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2232, 2233
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2243): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2240, 2243
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2244): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2240, 2243, 2244
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2251): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2250, 2251
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2261): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2258, 2261
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2262): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2258, 2261, 2262
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2269): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2268, 2269
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2276): warning C6386: Buffer overrun: accessing 'mPivotState', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2274, 2275, 2276
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2277): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2274, 2275, 2276, 2277
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(356): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 353, 354, 355, 356
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(365): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 362, 363, 364, 365
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(376): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 373, 374, 375, 376
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(394): warning C6011: Dereferencing NULL pointer 'private: static void (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mDeallocatorFct)(class fbxsdk_2014_1::FbxAnimCurveKey_Impl *)': Lines: 392, 393, 394
+     1>d:\github\masters thesis\engine\engine\fbxloader2.cpp(539): warning C6211: Leaking memory 'sk' due to an exception. Consider using a local catch block to clean up memory: Lines: 510, 511, 513, 515, 517, 519, 520, 521, 522, 524, 526, 527, 528, 530, 531, 533, 535, 537, 539, 540, 548, 537, 539, 540, 542
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(40): warning C6011: Dereferencing NULL pointer 'mRecord': Lines: 39, 40
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(38) : while compiling class template member function 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType> &fbxsdk_2014_1::FbxRedBlackIterator<RecordType>::operator ++(void)'
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1694) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType>' being compiled
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1893) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Key=fbxsdk_2014_1::FbxInt,
+                     Type=fbxsdk_2014_1::FbxPropertyEntry *,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/shading/fbxbindingoperator.h(296) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare>' being compiled
+                 with
+                 [
+                     Key=const char *,
+                     Type=const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,
+                     Compare=fbxsdk_2014_1::FbxCharCompare
+                 ]
+     1>d:\github\masters thesis\engine\engine\furdensitygenerator.cpp(230): warning C6386: Buffer overrun: accessing 'textures', the writable size is 'number*4' bytes, but '8' bytes might be written: Lines: 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 32, 33, 35, 37, 39, 41, 43, 41, 43, 41, 39, 41, 43, 41, 39, 37, 39, 41, 39, 37, 48, 49, 50, 51, 53, 74, 76, 78, 80, 81, 82, 83, 78, 76, 78, 80, 81, 82, 83, 78, 76, 74, 76, 78, 80, 81, 82, 83, 78, 76, 74, 89, 91, 93, 95, 96, 98, 99, 100, 101, 103, 105, 93, 95, 96, 98, 99, 100, 101, 103, 105, 93, 91, 93, 95, 96, 98, 99, 100, 101, 103, 105, 93, 91, 89, 91, 93, 91, 89, 140, 142, 144, 146, 147, 148, 149, 151, 153, 156, 144, 146, 147, 148, 149, 151, 153, 156, 144, 142, 144, 146, 147, 148, 149, 151, 153, 156, 144, 142, 140, 142, 144, 142, 140, 164, 170, 174, 176, 178, 180, 182, 183, 184, 185, 187, 180, 182, 183, 184, 185, 187, 180, 178, 180, 182, 183, 184, 185, 187, 180, 178, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 206, 207, 208, 209, 211, 213, 214, 215, 216, 218, 219, 221, 222, 223, 224, 225, 227, 228, 230
+     1>d:\github\masters thesis\engine\engine\directmanager.cpp(147): warning C6001: Using uninitialized memory 'numerator': Lines: 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 48, 49, 55, 56, 62, 63, 69, 70, 76, 77, 83, 84, 89, 101, 102, 108, 111, 112, 118, 119, 122, 123, 126, 127, 130, 131, 133, 136, 139, 140, 143, 145, 147
+     1>d:\github\masters thesis\engine\engine\directmanager.cpp(148): warning C6001: Using uninitialized memory 'denominator': Lines: 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 44, 48, 49, 55, 56, 62, 63, 69, 70, 76, 77, 83, 84, 89, 101, 102, 108, 111, 112, 118, 119, 122, 123, 126, 127, 130, 131, 133, 136, 139, 140, 143, 145, 147, 148
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1308): warning C6011: Dereferencing NULL pointer 'lPropertyValue2': Lines: 1285, 1287, 1288, 1289, 1290, 1291, 1292, 1303, 1304, 1305, 1308
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1559): warning C6011: Dereferencing NULL pointer 'lParentFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\fbxpropertypage.h(1560): warning C6011: Dereferencing NULL pointer 'lPropertyFlags': Lines: 1548, 1549, 1551, 1553, 1556, 1557, 1559, 1560
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2182): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2170, 2171, 2177, 2180, 2181, 2182
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2171): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2170, 2171
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2178): warning C6386: Buffer overrun: accessing 'mPivot', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2170, 2171, 2177, 2178
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2184): warning C6011: Dereferencing NULL pointer 'mPivot[id]': Lines: 2170, 2171, 2177, 2178, 2180, 2181, 2184
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2203): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2203
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2204): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2204
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2205): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2205
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2206): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2206
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2207): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2207
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2208): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2208
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2209): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2209
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2210): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2210
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2211): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2211
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2228): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2228
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2233): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2232, 2233
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2243): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2240, 2243
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2244): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2240, 2243, 2244
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2251): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2250, 2251
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2261): warning C6385: Invalid data: accessing 'mIsDefault', the readable size is '2' bytes, but '3' bytes might be read: Lines: 2258, 2261
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2262): warning C6386: Buffer overrun: accessing 'mIsDefault', the writable size is '2' bytes, but '3' bytes might be written: Lines: 2258, 2261, 2262
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2269): warning C6385: Invalid data: accessing 'mPivotState', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2268, 2269
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2276): warning C6386: Buffer overrun: accessing 'mPivotState', the writable size is '8' bytes, but '12' bytes might be written: Lines: 2274, 2275, 2276
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\geometry\fbxnode.h(2277): warning C6385: Invalid data: accessing 'mPivot', the readable size is '8' bytes, but '12' bytes might be read: Lines: 2274, 2275, 2276, 2277
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(356): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 353, 354, 355, 356
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(365): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 362, 363, 364, 365
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(376): warning C6011: Dereferencing NULL pointer 'private: static class fbxsdk_2014_1::FbxAnimCurveKey_Impl * (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mAllocatorFct)(void)': Lines: 373, 374, 375, 376
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\scene\animation\fbxanimcurve.h(394): warning C6011: Dereferencing NULL pointer 'private: static void (__cdecl* fbxsdk_2014_1::FbxAnimCurveKey::mDeallocatorFct)(class fbxsdk_2014_1::FbxAnimCurveKey_Impl *)': Lines: 392, 393, 394
+     1>d:\github\masters thesis\engine\engine\fbxloader.cpp(1240): warning C6211: Leaking memory 'sk' due to an exception. Consider using a local catch block to clean up memory: Lines: 1211, 1212, 1214, 1216, 1218, 1220, 1221, 1222, 1223, 1225, 1227, 1228, 1229, 1231, 1232, 1234, 1236, 1238, 1240, 1241, 1249, 1238, 1240, 1241, 1243
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(40): warning C6011: Dereferencing NULL pointer 'mRecord': Lines: 39, 40
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(38) : while compiling class template member function 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType> &fbxsdk_2014_1::FbxRedBlackIterator<RecordType>::operator ++(void)'
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1694) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackIterator<RecordType>' being compiled
+                 with
+                 [
+                     RecordType=fbxsdk_2014_1::FbxRedBlackTree<fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::RecordType
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<fbxsdk_2014_1::FbxInt,fbxsdk_2014_1::FbxPropertyEntry *,fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,fbxsdk_2014_1::FbxHungryAllocator>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/fbxpropertypage.h(1893) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Key=fbxsdk_2014_1::FbxInt,
+                     Type=fbxsdk_2014_1::FbxPropertyEntry *,
+                     Compare=fbxsdk_2014_1::FbxLessCompare<fbxsdk_2014_1::FbxInt>,
+                     Allocator=fbxsdk_2014_1::FbxHungryAllocator
+                 ]
+     1>c:\program files\autodesk\fbx\fbx sdk\2014.1\include\fbxsdk\core\base\fbxredblacktree.h(1247): warning C6011: Dereferencing NULL pointer 'lSibling': Lines: 1209, 1210, 1211, 1213, 1215, 1217, 1221, 1223, 1225, 1227, 1228, 1229, 1235, 1240, 1247
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxredblacktree.h(1208) : while compiling class template member function 'void fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::FixNodesAfterRemoval(fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *,fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>::RecordType *)'
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/core/base/fbxmap.h(98) : see reference to class template instantiation 'fbxsdk_2014_1::FbxRedBlackTree<Type,Compare,Allocator>' being compiled
+                 with
+                 [
+                     Type=fbxsdk_2014_1::FbxMap<const char *,const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,fbxsdk_2014_1::FbxCharCompare>::KeyValuePair,
+                     Compare=fbxsdk_2014_1::FbxCharCompare,
+                     Allocator=fbxsdk_2014_1::FbxBaseAllocator
+                 ]
+                 C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include\fbxsdk/scene/shading/fbxbindingoperator.h(296) : see reference to class template instantiation 'fbxsdk_2014_1::FbxMap<Key,Type,Compare>' being compiled
+                 with
+                 [
+                     Key=const char *,
+                     Type=const fbxsdk_2014_1::FbxBindingOperator::FunctionCreatorBase *,
+                     Compare=fbxsdk_2014_1::FbxCharCompare
+                 ]
+     1>Done Building Project "D:\Github\Masters Thesis\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:01:16.61

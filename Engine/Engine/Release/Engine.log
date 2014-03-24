@@ -1,0 +1,18 @@
+﻿Build started 2014-03-24 22:44:55.
+     1>Project "D:\Github\Masters Thesis\Engine\Engine\Engine.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\Github\Masters Thesis\Engine\Release\".
+       InitializeBuildStatus:
+         Creating "Release\Engine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         e:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Autodesk\FBX\FBX SDK\2014.1\include" /I"E:\Program Files\dx sdk\Include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AnimationData.cpp AnimationFrame.cpp bitmapProcessor.cpp BoneData.cpp camera.cpp fbxLoader2.cpp furDensityGenerator.cpp furShader.cpp phongShader.cpp directmanager.cpp fbxLoader.cpp graphicsclass.cpp inputclass.cpp main.cpp meshRenderer.cpp SkeletalData.cpp systemclass.cpp textureProcessor.cpp
+         AnimationData.cpp
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(48): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(49): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+     1>d:\github\masters thesis\engine\engine\AnimationData.h(50): warning C4244: 'argument' : conversion from 'double' to 'const fbxsdk_2014_1::FbxLongLong', possible loss of data
+         AnimationFrame.cpp
+     1>Done Building Project "D:\Github\Masters Thesis\Engine\Engine\Engine.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.92

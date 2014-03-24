@@ -1,0 +1,50 @@
+Texture2D FurTexture;
+SamplerState SampleType;
+
+cbuffer CameraBuffer
+{
+	float3 camposition;
+	float reflectionMod;
+};
+
+cbuffer LightBuffer
+{
+    float4 ambientColor;
+    float4 diffuseColor;
+    float3 lightDirection;
+    float specularPower;
+    float4 specularColor;
+};
+
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+	float3 normal : NORMAL;
+	float2 tex : TEXCOORD0;
+	float length : TEXCOORD1;
+	float4 positionBase : TEXCOORD2;
+	float4 positionEnd : TEXCOORD3;
+	float3 viewDirection : TEXCOORD4;
+};
+
+float4 FurShader(PixelInputType input) : SV_TARGET
+{	
+    float4 specular;
+
+	specular = specularColor;
+
+	float3 hairEnd = input.positionEnd.xyz-input.positionBase.xyz;
+	float3 cameraHair = input.positionEnd.xyz - camposition;
+	float3 lightHair = -lightDirection - input.positionEnd.xyz;
+	float3 normalP = cross(cameraHair, lightHair);
+	float3 normalGenerated = normalize(cross(normalP, hairEnd));
+
+	float3 reflection =  normalize(2 * dot(lightHair, normalGenerated) * normalGenerated - lightHair);
+	float dotProduct = dot(normalize(reflection), normalize(input.viewDirection));
+	dotProduct = clamp(dotProduct, 0, 1);
+	specular = specular * min(max(pow(dotProduct, 50), 0), 1) * clamp(input.length,0,1) *reflectionMod;
+
+	float4 diffuseTexture = saturate(FurTexture.Sample(SampleType, input.tex) + float4(specular.xyz, 0));
+
+	return diffuseTexture;
+}
